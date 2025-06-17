@@ -1,10 +1,10 @@
-package ru.netolgy.Controller;
+package ru.netolgy.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.netolgy.Repository.Authorities;
-import ru.netolgy.Service.AuthorizationService;
+import ru.netolgy.domain.Authorities;
+import ru.netolgy.service.AuthorizationService;
 
 import java.util.List;
 

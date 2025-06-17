@@ -1,4 +1,4 @@
-package ru.netolgy.Repository;
+package ru.netolgy.domain;
 
 public enum Authorities {
     READ, WRITE, DELETE

@@ -1,6 +1,7 @@
-package ru.netolgy.Repository;
+package ru.netolgy.repository;
 
 import org.springframework.stereotype.Repository;
+import ru.netolgy.domain.Authorities;
 
 import java.util.Collections;
 import java.util.List;

@@ -1,10 +1,10 @@
-package ru.netolgy.Service;
+package ru.netolgy.service;
 
 import org.springframework.stereotype.Service;
-import ru.netolgy.Exception.InvalidCredentials;
-import ru.netolgy.Exception.UnauthorizedUser;
-import ru.netolgy.Repository.Authorities;
-import ru.netolgy.Repository.UserRepository;
+import ru.netolgy.exception.InvalidCredentials;
+import ru.netolgy.exception.UnauthorizedUser;
+import ru.netolgy.domain.Authorities;
+import ru.netolgy.repository.UserRepository;
 
 import java.util.List;
 

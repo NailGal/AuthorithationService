@@ -1,4 +1,4 @@
-package ru.netolgy.Exception;
+package ru.netolgy.exception;
 
 public class InvalidCredentials extends RuntimeException {
     public InvalidCredentials(String msg) {
