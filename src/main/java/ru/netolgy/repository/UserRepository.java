@@ -13,7 +13,7 @@ public class UserRepository {
     // Тестовые пользователи (в реальном приложении заменить на БД)
     private final Map<String, User> users = Map.of(
             "admin", new User("admin", "admin123", List.of(Authorities.READ, Authorities.WRITE, Authorities.DELETE)),
-            "user", new User("user", "userPass", List.of(Authorities.READ))
+            "user", new User("user", "userPass", List.of(Authorities.READ, Authorities.WRITE))
     );
 
     public List<Authorities> getUserAuthorities(String user, String password) {
